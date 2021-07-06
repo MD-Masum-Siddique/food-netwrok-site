@@ -3,49 +3,117 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 700;
 }
 .flex{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
-    width: 35%;
-    padding-left: 10%;
+    width: 50%;
+    padding-left: 5%;
 }
 .half-width img{
+    width: 100%;
+}
+.second-image img{
     width: 50%;
+    padding-left: 100px;
+}
+.second-section{
+    margin-top: 100px;
+}
+#sidebar-top{
+    padding-right: 150px;
+}
+#aside-button-down{
+    margin-top: 150px;
 }
 .link-button{
     background-color: orange;
     text-decoration: none;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 40px;
     background-image: linear-gradient(orange, rgb(201, 71, 48));
     border-radius: 35px;
+    font-weight: 700;
+   
+}
+.recepie{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.top-margin{
+    margin-top: 100px;
+
 }
 .orenge-color{
     color: orange;
 }
+.slider-top{
+    margin-top: 100px;
+}
+
 .middle-banner{
     background-image: url( images/7.png);
     background-repeat: no-repeat;
+    justify-content: center;
+}
+.three-box{
+    width: 100%;
+    justify-content: center;
 }
 .recipies-details{
     width: 20%;
-    margin-right: 50px;
+    margin-left: 5%;
     box-shadow: 10px 10px 40px green;
     border-radius: 20px;
     height: 500px;
+}
+.recipies-details h2{
+    padding-left: 5%;
+}
+.recipies-details p{
+    padding: 0% 5%;
+    
 }
 .recipies-details img{
     width: 90%;
     padding: 5%;
 }
+.subscribe-area{
+    display: flex;
+    width: 70%;
+   margin: 15%;
+    box-shadow: 10px 10px 40px green;
+    border-radius: 20px;
+    height: 200px;
+    justify-content: center;
+   
+}
+.sub-area-text{
+    width: 20%;
+    padding: 0 10%;
+    text-align: center;
+}
+.sub-area-text h1{
+    font-size: 50px;
+    margin-bottom: -30px;
+}
 #aline{
     text-align: center;
 }
-#aline-last{
-    text-align: center;
+
+footer{
+    height: 250px;
     background-color: black;
+    text-align: center;
+   width: 90%;
+   margin-left: 5%;
     color: blanchedalmond;
+}
+#footer-h3-text{
+    padding-top: 30px;
 }
